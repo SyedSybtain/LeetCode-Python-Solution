@@ -6,8 +6,7 @@ class Solution(object):
         :rtype: List[int]
         """
         itr = len(nums)
-        i=0
-        j=1 
+       
         for i in range(itr):
             for j in range(itr):
                 if nums[i]+nums[j]== target and i != j:
