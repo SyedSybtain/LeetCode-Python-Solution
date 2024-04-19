@@ -5,6 +5,7 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
+        
         index = []
         if any(target == num for num in nums):
             for i,num in enumerate(nums):
