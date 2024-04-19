@@ -5,6 +5,7 @@ class Solution(object):
         :type target: int
         :rtype: bool
         """
+        
         for row in matrix:
             for element in row:
                 if target == element:
