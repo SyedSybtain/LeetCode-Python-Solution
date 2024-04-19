@@ -12,6 +12,3 @@ class Solution(object):
                 if nums[i]+nums[j]== target and i != j:
                     print(i,j)
                     return [i,j]
-
-            
-        
