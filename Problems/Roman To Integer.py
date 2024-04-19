@@ -41,4 +41,4 @@ class Solution(object):
         total = add - sub
 
         return total
-            
+
