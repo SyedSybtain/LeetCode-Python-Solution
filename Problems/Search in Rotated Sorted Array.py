@@ -9,3 +9,4 @@ class Solution(object):
             if element == target:
                 return i
         return -1
+
