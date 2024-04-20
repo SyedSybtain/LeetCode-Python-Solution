@@ -7,7 +7,7 @@ class Solution(object):
         str_x = str(x)
         rev_x = reversed(str_x)
         rev_x = ''.join(rev_x)
-
+        
         if str_x == rev_x:
             return True
         else:
