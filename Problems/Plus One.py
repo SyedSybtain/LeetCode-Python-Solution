@@ -4,6 +4,7 @@ class Solution(object):
         :type digits: List[int]
         :rtype: List[int]
         """
+        
         strr = []
         digits_out = []
         for i in digits:
