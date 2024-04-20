@@ -5,6 +5,7 @@ class Solution(object):
         :type nums2: List[int]
         :rtype: float
         """
+        
         nums = sorted(nums1+nums2)
         len_nums = len(nums)
         odd = (len_nums+1)/2
